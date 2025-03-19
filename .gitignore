@@ -1,0 +1,38 @@
+# Bytecode / Compiled files
+**/__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+.venv/
+env/
+venv/
+**/venv/
+
+# Streamlit related
+.streamlit/
+
+# Data and Vector Store
+faiss_index/
+download.png
+img_2.webp
+mathpuzzle1.jpg
+puzz.png
+
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# Local settings
+*.log
+*.tmp
+tmp/
+
+# IDE Specific
+.idea/
+.vscode/
+
+# Secrets
+.env
